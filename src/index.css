@@ -1,0 +1,305 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body{
+  margin:0 auto;
+}
+
+.App{
+  width: 100vw;
+  height: 100vh;
+}
+
+.logoName{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 17px;
+  color: #1B1A21;
+  margin-left: 50px;
+}
+
+.Navbar{
+  width:100%;
+  height: 100px;
+  background-color:white;
+  display:flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Navbar .leftside{
+  flex: 30%;
+  height: 100px;
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 25px;
+}
+
+.leftside input{
+  width: 627px;
+  height: 40px;
+  border-color:#E3E1E3;
+  border-width: 0.5px;
+  border-radius: 8px;
+  font-size:12px;
+  margin: 0px 10px;
+  padding-left:15px;
+}
+
+.Navbar .rightside{
+  flex: 70%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Navbar .rightside .links{
+  max-height: 50px;
+}
+
+.Navbar .rightside .links a{
+  text-decoration: none;
+  color: #888888;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.btnConnect{
+  margin-left:15px;
+  width: 146px;
+  height: 40px;
+  border-radius: 10px;
+  color: #DA18A3;
+  background-color: white;
+  border-color: #DA18A3;;
+}
+
+.btnCreate{
+  margin-left:15px;
+  width: 109px;
+  height: 40px;
+  top: 0px;
+  background: linear-gradient(101.12deg, #EB1484 27.35%, #C91CC3 99.99%, #C81CC5 100%, #C81CC5 100%);
+  border-radius: 10px;
+  color:white;
+  border:none;
+}
+
+.section,
+.Sellers{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textBanner{
+  margin-top: 60px;
+  width: 992px;
+  height: 300px;
+  background: linear-gradient(101.12deg, #EB1484 27.35%, #C91CC3 99.99%, #C81CC5 100%, #C81CC5 100%);
+  border-radius: 20px;
+  margin-bottom: 60px;
+}
+
+.textB{
+  width: 663px;
+  height: 111px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 48px;
+  color:white;
+  padding-left: 53px;
+  padding-top: 35px;
+}
+
+.Boxes{
+  width: 1028px;
+  height: 285px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.box{
+  width: 180px;
+  height: 200px;
+  background-color:white;
+  border-radius: 10%;
+  border:1px solid #888888;
+}
+
+.box2{
+  width: 87px;
+  height: 137px;
+  display: flex;
+}
+
+.box3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+  padding-left:40px;
+}
+
+.box4text{
+  display:flexbox;
+  line-height: 25px;
+  color:#2A2D3A;
+}
+
+.box5text{
+  padding-left:5px;
+}
+
+
+.numberCircle{
+    display:inline-block;
+    margin:5px 5px;
+    width: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    color:white;
+    background-color: #DA18A3;
+}
+
+.topSellersTitle{
+  color: #2A2D3A;
+  width:45%;
+  display:flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+
+.BoxesNft{
+  width: 992px;
+  height: 658px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 30px;
+  margin-top:50px;
+  flex-wrap:wrap;
+  padding-bottom: 50px;
+}
+
+.boxNft{
+  padding-top:15px;
+  width: 233px;
+  height: 300px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction:column;
+  background-color: white;
+  border-radius: 20px;
+  border:1px solid #888888;
+  margin-bottom:30px;
+}
+
+.BidsNfts,
+.btnMore{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nftImg{
+  border-radius: 20px;
+}
+
+.loadMoreBtn{
+  padding: 9px 30px;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  color:#DA18A3;
+  border:1px solid #DA18A3 ;
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+.Footer{
+  width:100%;
+  height: 200px;
+  background-color:white;
+  display:flex;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  justify-content: center;
+  padding:0;
+  margin:0 auto;
+  background: linear-gradient(101.12deg, #EB1484 27.35%, #C91CC3 99.99%, #C81CC5 100%, #C81CC5 100%);
+}
+
+.footerSearch{
+  width:357px;
+  height:40px;
+  border-color:#E3E1E3;
+  border-width: 0.5px;
+  border-radius: 8px;
+  font-size:14px;
+  display: flex;
+  padding-left:15px;
+}
+
+.btnFooter{
+  display:flex;
+  align-items:column;
+  justify-content: start;
+}
+
+.logoNameFooter{
+  font-size: 30px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+}
+
+.footerStyle2{
+  display:flex;
+  flex-wrap: nowrap;
+  margin-bottom: 50px;
+}
+
+.btnFooter{
+  width:118px;
+  height:44px;
+  background-color: white;
+  color:#DA18A3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border-color:#E3E1E3;
+  border-width: 0.5px;
+  font-size:14px;
+  font-weight:500;
+  margin-left:15px;
+}
